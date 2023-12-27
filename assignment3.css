@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid gold;
+  margin: 0 auto;
+  height: 500px;
+  width: 85%;
+}
+
+header,
+footer {
+  border: 2px solid red;
+  height: 100px;
+}
+
+section {
+  border: 2px solid blue;
+  height: 300px;
+}
+
+section div {
+  border: 2px solid;
+  height: 100%;
+  float: left;
+}
+
+.one-third {
+  width: 20%;
+}
+
+.two-thirds {
+  width: 40%;
+}
