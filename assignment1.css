@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid green;
+  height: 550px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+header,
+footer {
+  border: 2px solid red;
+  height: 100px;
+}
+
+.first-section {
+  height: 150px;
+}
+
+.second-section {
+  height: 200px;
+}
+
+.first-section,
+.second-section {
+  border: 2px solid blue;
+}
+
+.first-section div {
+  border: 2px solid green;
+  height: 100%;
+  width: 33.3333%;
+  float: left;
+}
+
+.second-section div {
+  border: 2px solid black;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
